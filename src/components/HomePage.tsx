@@ -1,6 +1,6 @@
 import { LoginIcon } from '@heroicons/react/outline'
 import { Link, Outlet, useLocation } from 'react-router-dom'
-import AppButton from './AppButton'
+import AppButton from './App/AppButton'
 
 export default function PageHome() {
   const location = useLocation()

@@ -1,4 +1,4 @@
-import PageHome from './PageHome'
+import PageHome from '../HomePage'
 
 export default function App() {
   return <PageHome />

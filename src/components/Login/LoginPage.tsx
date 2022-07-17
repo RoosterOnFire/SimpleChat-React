@@ -1,7 +1,7 @@
 import { LoginIcon } from '@heroicons/react/outline'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
-import AppButton from '../../AppButton'
+import AppButton from '../App/AppButton'
 import LoginError from './LoginError'
 import LoginInput from './LoginInput'
 import { IFormValues } from './LoginTypes'
@@ -21,7 +21,6 @@ export default function PageLogin() {
 
   return (
     <>
-      <p>Sign in</p>
       <form
         className="flex w-2/3 flex-col gap-4 md:w-1/3"
         onSubmit={handleSubmit(onSubmit)}
