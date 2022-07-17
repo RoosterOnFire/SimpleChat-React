@@ -2,12 +2,12 @@ import { MouseEventHandler } from 'react'
 
 export default function AppButton({
   title,
-  onClick,
   children,
+  onClick,
 }: {
   title: string
-  onClick: MouseEventHandler<HTMLButtonElement>
-  children: JSX.Element
+  children?: JSX.Element
+  onClick?: MouseEventHandler<HTMLButtonElement>
 }) {
   return (
     <button
